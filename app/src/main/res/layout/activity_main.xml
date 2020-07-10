@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/image_main"
+        android:layout_height="@dimen/image_main"
+        android:src="@drawable/tebakgambar" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="@dimen/width_button_main"
+        android:layout_height="@dimen/height_button_main"
+        android:layout_marginBottom="@dimen/val130"
+        android:background="@color/colorButton"
+        android:text="@string/play"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/button_main" />
+
+</LinearLayout>

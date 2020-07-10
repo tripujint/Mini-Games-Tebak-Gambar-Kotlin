@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mini Game</string>
+    <string name="play">MAIN</string>
+    <string name="exit">KELUAR</string>
+    <string name="lanjut">SELANJUTNYA</string>
+    <string name="apel">APEL</string>
+    <string name="pisang">PISANG</string>
+    <string name="jeruk">JERUK</string>
+    <string name="semangka">SEMANGKA</string>
+    <string name="anggur">ANGGUR</string>
+    <string name="buahnaga">BUAH NAGA</string>
+    <string name="nangka">NANGKA</string>
+    <string name="selesai">SELESAI</string>
+    <string name="satu">1</string>
+    <string name="dua">2</string>
+    <string name="tiga">3</string>
+    <string name="empat">4</string>
+    <string name="lima">5</string>
+    <string name="enam">6</string>
+    <string name="tujuh">7</string>
+    <string name="delapan">8</string>
+</resources>

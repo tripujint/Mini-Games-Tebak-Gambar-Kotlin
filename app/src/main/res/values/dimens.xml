@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_main">300dp</dimen>
+    <dimen name="width_button_main">150dp</dimen>
+    <dimen name="height_button_main">65dp</dimen>
+    <dimen name="button_main">25dp</dimen>
+    <dimen name="val20">20dp</dimen>
+    <dimen name="val130">135dp</dimen>
+    <dimen name="val50">30dp</dimen>
+    <dimen name="button_menu">40dp</dimen>
+    <dimen name="text_menu">90dp</dimen>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:padding="@dimen/button_menu"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_menu_satu"
+        style="@style/ButtonMenu"
+        android:text="@string/satu" />
+
+    <Button
+        android:id="@+id/btn_menu_dua"
+        style="@style/ButtonMenu"
+        android:layout_alignParentRight="true"
+        android:text="@string/dua" />
+
+    <Button
+        android:id="@+id/btn_menu_tiga"
+        style="@style/ButtonMenu"
+        android:layout_below="@id/btn_menu_satu"
+        android:text="@string/tiga" />
+
+    <Button
+        android:id="@+id/btn_menu_empat"
+        style="@style/ButtonMenu"
+        android:layout_below="@id/btn_menu_satu"
+        android:layout_alignParentRight="true"
+        android:text="@string/empat" />
+
+    <Button
+        android:id="@+id/btn_menu_lima"
+        style="@style/ButtonMenu"
+        android:layout_below="@id/btn_menu_tiga"
+        android:text="@string/lima" />
+
+    <Button
+        android:id="@+id/btn_menu_enam"
+        style="@style/ButtonMenu"
+        android:layout_below="@id/btn_menu_tiga"
+        android:layout_alignParentRight="true"
+        android:text="@string/enam" />
+
+    <Button
+        android:id="@+id/btn_menu_tujuh"
+        style="@style/ButtonMenu"
+        android:layout_below="@id/btn_menu_lima"
+        android:text="@string/tujuh" />
+
+    <Button
+        android:id="@+id/btn_menu_delapan"
+        style="@style/ButtonMenu"
+        android:layout_below="@id/btn_menu_lima"
+        android:layout_alignParentRight="true"
+        android:text="@string/delapan" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="@dimen/val50"
+    tools:context=".GambarSatuActivity">
+
+    <ImageView
+        android:id="@+id/iv_buah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/val50"
+        android:src="@drawable/buahjeruk" />
+
+    <Button
+        android:id="@+id/btn_satu"
+        style="@style/Button"
+        android:layout_below="@id/iv_buah"
+        android:text="@string/pisang" />
+
+    <Button
+        android:id="@+id/btn_dua"
+        style="@style/Button"
+        android:layout_below="@id/iv_buah"
+        android:layout_alignParentRight="true"
+        android:text="@string/anggur"/>
+
+    <Button
+        android:id="@+id/btn_tiga"
+        style="@style/Button"
+        android:layout_below="@id/btn_satu"
+        android:text="@string/semangka"/>
+
+    <Button
+        android:id="@+id/btn_empat"
+        style="@style/Button"
+        android:layout_below="@id/btn_satu"
+        android:layout_alignParentRight="true"
+        android:text="@string/jeruk"/>
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        style="@style/ButtonSelanjutnya"
+        android:layout_alignParentBottom="true"
+        android:text="@string/lanjut"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">@dimen/width_button_main</item>
+        <item name="android:layout_height">@dimen/height_button_main</item>
+        <item name="android:layout_marginBottom">@dimen/button_main</item>
+        <item name="android:textSize">@dimen/val20</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorButton</item>
+    </style>
+
+    <style name="ButtonSelanjutnya">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_button_main</item>
+        <item name="android:textSize">@dimen/val20</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorButton</item>
+    </style>
+
+    <style name="ButtonMenu">
+        <item name="android:layout_width">@dimen/val130</item>
+        <item name="android:layout_height">@dimen/val130</item>
+        <item name="android:layout_marginTop">@dimen/val20</item>
+        <item name="android:layout_marginBottom">@dimen/val20</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_menu</item>
+    </style>
+
+</resources>
